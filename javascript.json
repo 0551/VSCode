@@ -1,0 +1,31 @@
+{
+
+	"Function": {
+		"prefix": "fn",
+		"body": [
+			"function() {",
+			"    $1",
+			"}"
+		],
+		"description": "Insert empty function"
+	},
+
+	"Function with arguments": {
+		"prefix": "fna",
+		"body": [
+			"function($1) {",
+			"    $2",
+			"}"
+		],
+		"description": "Insert empty function with arguments"
+	},
+
+	 "Print to console": {
+		"prefix": "clog",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+}

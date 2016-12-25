@@ -1,0 +1,30 @@
+{
+
+   "Tag Javascript" : {
+    "prefix": "jjs",
+    "body" : [
+     "  <script type=\"text/javascript\">",
+	 	"    ",
+     "  </script>"
+    ]
+  },
+  "Function": {
+		"prefix": "fn",
+		"body": [
+			"function() {",
+			"    $1",
+			"}"
+		],
+		"description": "Insert empty function"
+	},
+	"Function with arguments": {
+		"prefix": "fna",
+		"body": [
+			"function($1) {",
+			"    $2",
+			"}"
+		],
+		"description": "Insert empty function with arguments"
+	}
+
+}
